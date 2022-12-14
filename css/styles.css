@@ -1,0 +1,114 @@
+
+/* Title Section */
+#title{
+  background-color: #ffc468;
+  color: #fff;
+  padding-top: 10px;
+  line-height: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 10%;
+}
+h1{
+  font-size: 1rem;
+}
+.phone-img{
+margin-left: 19%;
+transform: rotate(25deg);
+width: 280px;
+margin-top: 12%;
+
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.icon{
+  color: #ffc468;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: #000;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+    background-color: #ffc468;
+    color: #fff;
+    font-family: montserrat-bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 5% 10%;
+}
+
+.doggy-image{
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press Section */
+#press{
+  background-color: #ffc468;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  text-align: center;
+  margin: 5% 3%;
+}
+
+}
+.pricing-title{
+
+}
+
+/* Call to Action (cta) */
+#cta{
+  background-color: #ffc468;
+  text-align: center;
+color: #fff;
+    font-family: montserrat-black;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  height: 100px;
+  color: #000;
+
+}
+.internet-icons{
+  margin: 2% 15%;
+}
+
+@media (max-width: 770px){
+
+  #title{
+    text-align: center;
+  }
+  .phone-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
